@@ -4,21 +4,24 @@
 using namespace std;
 
 //[Missing Code 1] Write definition of the function findGrade() here.
-char findGrade() (double x ) {
-	char G ;
-	if  ( x >= 90)
-	cout << "A"
-	else if ( x >=75 )
-	cout << "B"
-	else if ( x >= 60)
-	cout << "C"
-	else if ( x>= 45)
-	cout << "D"
-	else if ( x <= 45)
-	cout << "F"
 
 
-}  
+char findGrade(double x ){
+    char g ;
+	if( x > 90){
+	g = 'A';
+	}else if ( x > 75 && x<=90){
+    g = 'B';
+	}else if ( x > 60 && x<=75){
+    g = 'C';
+	}else if ( x> 45 && x<=60){
+    g = 'D';
+	}else if ( x <= 45){
+    g = 'F';
+    }
+  return g ;
+}
+
 int main(){
 	//Input the number of students
 	int N,i = 0;
