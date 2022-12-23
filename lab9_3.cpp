@@ -48,10 +48,3 @@ int main(){
     cout << "Your character = " << status;
 }
 
-/*
-"Enter your age: "
-"Enter your height: "
-@@ -11,3 +61,4 @@
-"Brook"
-"Jinbe"
-*/
